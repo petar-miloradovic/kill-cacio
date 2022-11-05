@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="petar"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-11-05 11:34:45 "/>
+        <attribute name="created" value="cGV0YXI7RFJBS0VOOzIwMjItMTEtMDU7IjExOjEzOjA5ICI7MjE2MA=="/>
+        <attribute name="edited" value="cGV0YXI7RFJBS0VOOzIwMjItMTEtMDU7IjExOjM0OjQ1ICI7MjsyMjcy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="!= means not equal/disequal&#13;&#10;== exactly equal(used in 'if' structures)&#13;&#10;&gt;= means &#8805; (and then &lt;= means &#8804;)"/>
+            <declare name="qualifications, goodslave, funny, origins, worth" type="String" array="False" size=""/>
+            <declare name="balance" type="Integer" array="False" size=""/>
+            <output expression="&quot;do cacio have qualifications?(y/n) &gt;&gt;&gt; &quot;" newline="False"/>
+            <comment text="y/n"/>
+            <input variable="qualifications"/>
+            <while expression="qualifications != &quot;y&quot; and qualifications  != &quot;n&quot;">
+                <output expression="&quot;try again &gt;&gt;&gt; &quot;" newline="False"/>
+                <input variable="qualifications"/>
+            </while>
+            <output expression="&quot;is cacio a good slave?(y/n) &gt;&gt;&gt; &quot;" newline="False"/>
+            <comment text="y/n"/>
+            <input variable="goodslave"/>
+            <while expression="goodslave != &quot;y&quot; and goodslave != &quot;n&quot;">
+                <output expression="&quot;try again &gt;&gt;&gt; &quot;" newline="False"/>
+                <input variable="goodslave"/>
+            </while>
+            <output expression="&quot;is cacio a funny?(y/n) &gt;&gt;&gt; &quot;" newline="False"/>
+            <comment text="y/n"/>
+            <input variable="funny"/>
+            <while expression="funny != &quot;y&quot; and funny != &quot;n&quot;">
+                <output expression="&quot;try again &gt;&gt;&gt; &quot;" newline="False"/>
+                <input variable="funny"/>
+            </while>
+            <output expression="&quot;how many money do cacio have?(0,n) &gt;&gt;&gt; &quot;" newline="False"/>
+            <comment text="0,n"/>
+            <input variable="balance"/>
+            <output expression="&quot;which are cacio's origins?(n/s) &gt;&gt;&gt; &quot;" newline="False"/>
+            <comment text="n/s"/>
+            <input variable="origins"/>
+            <while expression="origins != &quot;n&quot; and origins != &quot;s&quot;">
+                <output expression="&quot;try again &gt;&gt;&gt; &quot;" newline="False"/>
+                <input variable="origins"/>
+            </while>
+            <output expression="&quot;is cacio worth more alive or dead?(a/d) &gt;&gt;&gt; &quot;" newline="False"/>
+            <comment text="a/d"/>
+            <input variable="worth"/>
+            <while expression="worth != &quot;n&quot; and worth != &quot;s&quot;">
+                <output expression="&quot;try again &gt;&gt;&gt; &quot;" newline="False"/>
+                <input variable="worth"/>
+            </while>
+            <if expression="qualifications == &quot;y&quot; and goodslave == &quot;y&quot; and funny == &quot;y&quot; and balance &gt;= 69104 and origins == &quot;n&quot; and worth == &quot;a&quot;">
+                <then>
+                    <output expression="&quot;cacio is unfortunatelly still alive&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;we finally decapitated cacio&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
