@@ -21,11 +21,11 @@ o = input("which are cacio's origins?(n/s) >>> ") # n/s
 while o != 'n' and o != 's':
     o = input("try again >>> ")
 
-w = input("is cacio worth more alive or dead?(y/n) >>> ") # y/n
-while w != 'y' and w != 'n':
+w = input("is cacio worth more alive or dead?(y/n) >>> ") # a/d
+while w != 'a' and w != 'n':
     w = input("try again >>> ")
 
-if q == 'y' and gs == 'y' and f == 'y' and b >= 69104 and o == 'n' and w == 'y':
+if q == 'y' and gs == 'y' and f == 'y' and b >= 69104 and o == 'n' and w == 'a':
     print('cacio is unfortunatelly still alive')
 else:
     print('we finally have decapitated cacio')
