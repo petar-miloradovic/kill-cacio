@@ -4,9 +4,9 @@
         <attribute name="name" value=""/>
         <attribute name="authors" value="petar"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2022-11-05 11:34:45 "/>
+        <attribute name="saved" value="2022-11-05 11:36:47 "/>
         <attribute name="created" value="cGV0YXI7RFJBS0VOOzIwMjItMTEtMDU7IjExOjEzOjA5ICI7MjE2MA=="/>
-        <attribute name="edited" value="cGV0YXI7RFJBS0VOOzIwMjItMTEtMDU7IjExOjM0OjQ1ICI7MjsyMjcy"/>
+        <attribute name="edited" value="cGV0YXI7RFJBS0VOOzIwMjItMTEtMDU7IjExOjM2OjQ3ICI7NzsyMjgx"/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
@@ -48,7 +48,7 @@
             <output expression="&quot;is cacio worth more alive or dead?(a/d) &gt;&gt;&gt; &quot;" newline="False"/>
             <comment text="a/d"/>
             <input variable="worth"/>
-            <while expression="worth != &quot;n&quot; and worth != &quot;s&quot;">
+            <while expression="worth != &quot;a&quot; and worth != &quot;d&quot;">
                 <output expression="&quot;try again &gt;&gt;&gt; &quot;" newline="False"/>
                 <input variable="worth"/>
             </while>
