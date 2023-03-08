@@ -3,7 +3,7 @@
 
 This script heps us to know if we should kill Christian Cacciuottolo or we don't <br>
 The script checks some variables which are:
-01. richness
+01. richness done
 02. qualifications
 03. being funny
 04. being a furry
@@ -18,4 +18,4 @@ The script checks some variables which are:
 13. watching porn
 14. health
 
-those all variables can modify the health_points variable, when it goes 0 or negative cacio dies without a respawn-point
+Those all variables can modify the hp(health points) variable, when it goes 0 or negative cacio dies without a respawn-point
