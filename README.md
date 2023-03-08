@@ -3,7 +3,7 @@
 
 This script heps us to know if we should kill Christian Cacciuottolo or we don't <br>
 The script checks some variables which are:
-01. richness done
+01. richness <!--lol -->
 02. qualifications
 03. being funny
 04. being a furry
