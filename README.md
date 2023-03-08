@@ -1,4 +1,4 @@
 # kill-cacio
 #should we kill christian? yes or yes?
 
-xfun::embed_file("flowchart-non-executable.pdf")
+<image src="flowchart-non-executable.pdf"/>
