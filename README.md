@@ -6,7 +6,7 @@ The script checks some variables which are:
 01. richness <!-- done -->
 02. qualifications
 03. being funny
-04. furry enjoyer
+04. being a furry
 05. balance in bank
 06. origins
 07. being worth as alive
