@@ -21,7 +21,7 @@ def origin(hp, bar):
                 case 'north':
                     hp += 1
                 case 'center':
-                    hp += 0
+                    hp -= 1
                 case 'south':
                     hp -= 1
         case 'no':

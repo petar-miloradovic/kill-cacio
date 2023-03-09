@@ -10,7 +10,7 @@ The script checks some variables which are:
 05. balance in bank
 06. origins <!-- done -->
 07. being worth as alive
-08. job
+08. job <!-- done -->
 09. family
 10. anime watcher
 11. manga reader
