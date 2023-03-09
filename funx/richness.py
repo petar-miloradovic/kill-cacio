@@ -6,6 +6,7 @@ def rich(hp, bar):
     while answ != 'yes' and answ != 'no':
         print("you entered an invalid answer,",
             "plz try again")
+        answ = input("type here --> ")
     match answ:
         case 'yes':
             hp += 1
