@@ -8,7 +8,7 @@ The script checks some variables which are:
 03. being funny
 04. being a furry <!-- done -->
 05. balance in bank
-06. origins
+06. origins <!-- done -->
 07. being worth as alive
 08. job
 09. family
