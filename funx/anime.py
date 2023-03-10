@@ -9,15 +9,13 @@ def anime(hp, bar):
         answ = input("type here --> ")
     match answ:
         case 'yes':
-            hp += 1
             print("What is christian cacciuottolo fevorite anime?")
             answ = input("type here --> ")
             while answ == '':
                 print("enter a anime name ")
                 answ = input("type here --> ")
-
+            return True
         case 'no':
-            hp -= 1
+            return False
     
-    print('his actual hp level is:', hp)
-    return hp
+

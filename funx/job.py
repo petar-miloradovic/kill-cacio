@@ -9,18 +9,14 @@ def job(hp, bar):
         answ = input("type here --> ")
     match answ:
         case 'yes':
-            hp += 1
             print("What job christian cacciuottolo have?")
             answ = input("type here --> ")
             while answ == '':
                 print("enter a job ")
                 answ = input("type here --> ")
-
+            return True
+        
         case 'no':
-            hp -= 1
+            return False
     
-    print('his actual hp level is:', hp)
-    return hp
-
-
 

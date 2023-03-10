@@ -8,11 +8,8 @@ def rich(hp, bar):
             "plz try again")
     match answ:
         case 'yes':
-            n = list()
-            hp += 1
+            return True
         case 'no':
-            hp -= 1
-    print('how many qualifications do cacio have?')
+            return False
+ 
     
-    print('his actual hp level is:', hp)
-    return hp

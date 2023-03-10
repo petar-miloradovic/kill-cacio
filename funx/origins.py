@@ -9,7 +9,6 @@ def origin(hp, bar):
         answ = input("type here --> ")
     match answ:
         case 'yes':
-            hp += 1
             print('From which part of Italy christian cacciuottolo come from?',
                       "answer \'north\' , \'south\' , \'center':")
             italy = input("type here --> ")
@@ -19,15 +18,13 @@ def origin(hp, bar):
                 italy = input("type here --> ")
             match italy:
                 case 'north':
-                    hp += 1
+                    return True
                 case 'center':
-                    hp -= 1
+                    return False
                 case 'south':
-                    hp -= 1
+                    return False
         case 'no':
-            hp -= 1
-    print('his actual hp level is:', hp)
-    return hp
+            return False
 
 
 

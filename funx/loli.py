@@ -9,9 +9,6 @@ def loli(hp, bar):
         answ = input("type here --> ")
     match answ:
         case 'yes':
-            hp += 1
+            return True
         case 'no':
-            hp -= 1
-    
-    print('his actual hp level is:', hp)
-    return hp
+            return False
