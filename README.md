@@ -10,12 +10,12 @@ The script checks some variables which are:
 05. balance in bank
 06. origins <!-- done -->
 07. being worth as alive
-08. job <!-- done -->
+08. job  <!-- done -->
 09. family
-10. anime watcher
+10. anime watcher <!-- done -->
 11. manga reader
-12. loli enjoyer
+12. loli enjoyer <!-- done -->
 13. watching porn
-14. health
+14. health <!-- done -->
 
 Those all variables can modify the hp(health points) variable, when it goes 0 or negative cacio dies without a respawn-point

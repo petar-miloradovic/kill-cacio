@@ -21,6 +21,3 @@ def anime(hp, bar):
     
     print('his actual hp level is:', hp)
     return hp
-
-
-
