@@ -1,5 +1,5 @@
 from funx.intro import intro
-from funx.richness import rich
+from funx.richness import richness
 from funx.furry import furry
 from funx.origins import origin
 from funx.job import job
@@ -23,7 +23,7 @@ def main():
     intro(bar)
 
     #funzioni 
-    if(rich(bar) is True):
+    if(richness(bar) is True):
         hp += 1
     else:
         hp -= 1
