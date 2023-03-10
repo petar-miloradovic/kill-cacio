@@ -8,6 +8,10 @@ def rich(bar):
             "plz try again")
     match answ:
         case 'yes':
+            print("How many does he have? ")
+            qualifica = int(input("type here --> "))
+            while qualifica == 0:
+                print("At leart one he had so... pls write the right number")
             return True
         case 'no':
             return False

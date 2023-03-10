@@ -9,7 +9,13 @@ def bank(bar):
         answ = input("type here --> ")
     match answ:
         case 'yes':
-            return True
+            print("Does christian cacciuottolo have money?",
+                "answer \'yes\' or \'no\':")
+            money = int(input("type here --> "))
+            if(money < 0):
+                return False
+            else:
+                return True    
         case 'no':
             return False
     

@@ -9,6 +9,12 @@ def manga(bar):
         answ = input("type here --> ")
     match answ:
         case 'yes':
+            print("What is he favorite anime: ")
+            man = input("type here --> ")
+            while man != '':
+                print("you entered an invalid answer,",
+                    "plz try again")
+                man = input("type here --> ")
             return True
         case 'no':
             return False
