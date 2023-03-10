@@ -1,4 +1,4 @@
-def furry(hp, bar):
+def furry(bar):
     print(bar)
     print("Is christian cacciuottolo a furry?",
         "answer \'yes\' or \'no\':")

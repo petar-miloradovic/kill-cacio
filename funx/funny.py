@@ -1,4 +1,4 @@
-def funny(hp, bar):
+def funny(bar):
     print(bar)
     print("Is christian cacciuottolo funny?",
         "answer \'yes\' or \'no\':")

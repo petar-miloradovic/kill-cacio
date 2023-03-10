@@ -23,90 +23,90 @@ def main():
     intro(bar)
 
     #funzioni 
-    if(rich(hp, bar) is True):
+    if(rich(bar) is True):
         hp += 1
     else:
         hp -= 1
     print('his actual hp level is:', hp)
 
-    if(furry(hp, bar) is True):
+    if(furry(bar) is True):
         hp += 1
     else:
         hp -= 1
 
     print('his actual hp level is:', hp)    
 
-    if(origin(hp, bar) is True):
+    if(origin(bar) is True):
         hp += 1
     else:
         hp -= 1
 
     print('his actual hp level is:', hp)
 
-    if(job(hp, bar) is True):
+    if(job(bar) is True):
         hp += 1
     else:
         hp -= 1
 
     print('his actual hp level is:', hp)    
 
-    if(anime(hp, bar) is True):
+    if(anime(bar) is True):
         hp += 1
     else:
         hp -= 1
 
     print('his actual hp level is:', hp)
 
-    if(loli(hp, bar) is True):
+    if(loli(bar) is True):
         hp += 1
     else:
         hp -= 1
 
     print('his actual hp level is:', hp)
 
-    if(health(hp, bar) is True):
+    if(health(bar) is True):
         hp += 1
     else:
         hp -= 1
     
     print('his actual hp level is:', hp)
 
-    if(bank(hp, bar) is True):
+    if(bank(bar) is True):
         hp += 1
     else:
         hp -= 1
 
     print('his actual hp level is:', hp)    
 
-    if(family(hp, bar) is True):
+    if(family(bar) is True):
         hp += 1
     else:
         hp -= 1
 
     print('his actual hp level is:', hp)
 
-    if(funny(hp, bar) is True):
+    if(funny(bar) is True):
         hp += 1
     else:
         hp -= 1
 
     print('his actual hp level is:', hp)    
 
-    if(manga(hp, bar) is True):
+    if(manga(bar) is True):
         hp += 1
     else:
         hp -= 1
 
     print('his actual hp level is:', hp)
 
-    if(porn(hp, bar) is True):
+    if(porn(bar) is True):
         hp += 1
     else:
         hp -= 1
 
     print('his actual hp level is:', hp)
 
-    if(worth(hp, bar) is True):
+    if(worth(bar) is True):
         hp += 1
     else:
         hp -= 1

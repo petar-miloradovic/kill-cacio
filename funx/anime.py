@@ -1,4 +1,4 @@
-def anime(hp, bar):
+def anime(bar):
     print(bar)
     print("Does christian cacciuottolo watch anime?",
         "answer \'yes\' or \'no\':")

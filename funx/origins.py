@@ -1,4 +1,4 @@
-def origin(hp, bar):
+def origin(bar):
     print(bar)
     print("What is christian cacciuottolo origin? It's from Italy?",
         "answer \'yes\' or \'no\':")

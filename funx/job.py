@@ -1,4 +1,4 @@
-def job(hp, bar):
+def job(bar):
     print(bar)
     print("Does christian cacciuottolo have a job?",
         "answer \'yes\' or \'no\':")

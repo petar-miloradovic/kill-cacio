@@ -1,4 +1,4 @@
-def loli(hp, bar):
+def loli(bar):
     print(bar)
     print("Is christian cacciuottolo a loli enjoyer",
         "answer \'yes\' or \'no\':")

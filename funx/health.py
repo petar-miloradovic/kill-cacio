@@ -1,4 +1,4 @@
-def health(hp, bar):
+def health(bar):
     print(bar)
     print("Is christian cacciuottolo in a health state",
         "answer \'yes\' or \'no\':")

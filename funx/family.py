@@ -1,4 +1,4 @@
-def family(hp, bar):
+def family(bar):
     print(bar)
     print("Does christian cacciuottolo have a family?",
         "answer \'yes\' or \'no\':")

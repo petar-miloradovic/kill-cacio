@@ -1,4 +1,4 @@
-def manga(hp, bar):
+def manga(bar):
     print(bar)
     print("Does christian cacciuottolo reads manga?",
         "answer \'yes\' or \'no\':")

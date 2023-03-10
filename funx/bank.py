@@ -1,4 +1,4 @@
-def bank(hp, bar):
+def bank(bar):
     print(bar)
     print("Does christian cacciuottolo have money?",
         "answer \'yes\' or \'no\':")

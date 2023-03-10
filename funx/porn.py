@@ -1,4 +1,4 @@
-def porn(hp, bar):
+def porn(bar):
     print(bar)
     print("Does christian cacciuottolo match porn?",
         "answer \'yes\' or \'no\':")

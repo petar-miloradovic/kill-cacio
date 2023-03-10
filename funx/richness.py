@@ -1,4 +1,4 @@
-def rich(hp, bar):
+def rich(bar):
     print(bar)
     print("is christian cacciuottolo rich?",
         "answer \'yes\' or \'no\':")

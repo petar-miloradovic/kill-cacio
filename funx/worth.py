@@ -1,4 +1,4 @@
-def worth(hp, bar):
+def worth(bar):
     print(bar)
     print("Does christian cacciuottolo have more value il life than death?",
         "answer \'yes\' or \'no\':")
