@@ -9,7 +9,6 @@ from funx.health import health
 from funx.bank import bank
 from funx.family import family
 from funx.funny import funny
-from funx.intro import intro
 from funx.manga import manga
 from funx.porn import porn
 from funx.worth import worth
