@@ -6,6 +6,7 @@ def rich(bar):
     while answ != 'yes' and answ != 'no':
         print("you entered an invalid answer,",
             "plz try again")
+        answ = input("type here --> ")
     match answ:
         case 'yes':
             print("How many does he have? ")
